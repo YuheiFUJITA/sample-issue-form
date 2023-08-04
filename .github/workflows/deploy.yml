@@ -32,7 +32,7 @@ jobs:
         run:  npm i -g @slidev/cli
 
       - name: Build
-        run: slidev build --base https://yuheifujita.github.io/sample-issue-form/
+        run: slidev build --base sample-issue-form
 
       - uses: actions/configure-pages@v3
 
