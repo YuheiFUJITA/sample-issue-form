@@ -31,8 +31,6 @@ body:
         - label: Safari
         - label: Edge
         - label: IE（Deprecated）
-    validations:
-      required: true
   - type: dropdown
     id: version
     attributes:
