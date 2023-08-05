@@ -1,0 +1,33 @@
+name: Issue Form
+description: Issue Formのサンプル
+title: '[Issue Form] '
+labels: [issue-form, sample]
+assignees:
+  - YuheiFUJITA
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ここではGitHubのMarkdownが使えます。
+        画像やMermaidも使えます。
+  - type: textarea
+    id: textarea
+    attributes:
+      label: Textarea
+      description: 
+      placeholder: テキストエリアのプレースホルダー
+      value: テキストエリアの初期値
+      render: js
+    validations:
+      required: true
+  - type: input
+    id: input
+    attributes:
+      label: Input
+      description: 要素を使用して、フォームに単一のテキスト フィールドを追加できます。
+      placeholder: インプットのプレースホルダー
+      value: インプットの初期値
+    validations:
+      required: true
+  - type: dropdown
+  - type: checkboxes
