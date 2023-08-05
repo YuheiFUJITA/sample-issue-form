@@ -10,6 +10,7 @@ body:
       value: |
         これはIssue Formを使った不具合報告のサンプルです。
         どんな感じに動作するのか実際にIssueを作成して確認してみてください。
+        従来のテンプレートは[こちら](https://github.com/YuheiFUJITA/sample-issue-form/issues/new?assignees=YuheiFUJITA&labels=bug%2Cmd%2Csample&projects=&template=bug-report-template.md&title=%5Bbug%5D+)。
   - type: textarea
     id: description
     attributes:
@@ -30,6 +31,8 @@ body:
         - label: Safari
         - label: Edge
         - label: IE（Deprecated）
+    validations:
+      required: true
   - type: dropdown
     id: version
     attributes:
@@ -43,3 +46,5 @@ body:
         - 1.1.1
         - 1.2.0
         - 2.0.0
+    validations:
+      required: true

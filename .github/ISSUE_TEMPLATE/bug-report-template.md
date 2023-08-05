@@ -10,7 +10,7 @@ assignees:
 <!--
 これは従来のIssue Templateです。
 以下のリンクからIssue Formを使ったIssueも試せるので比較してみてください。
-https://github.com/YuheiFUJITA/sample-issue-form/issues/new?template=bug-report-form.yml
+https://github.com/YuheiFUJITA/sample-issue-form/issues/new?assignees=YuheiFUJITA&labels=bug%2Cyml%2Csample&projects=&template=bug-report-form.yml&title=%5Bbug%5D+
 -->
 
 ## 不具合の概要
