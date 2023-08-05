@@ -1,0 +1,45 @@
+name: 不具合報告（Issue Form）
+description: Issue Formのの場合
+title: '[bug] '
+labels: [bug, yml, sample]
+assignees:
+  - YuheiFUJITA
+body:
+  - type: markdown
+    attributes:
+      value: |
+        これはIssue Formを使った不具合報告のサンプルです。
+        どんな感じに動作するのか実際にIssueを作成して確認してみてください。
+  - type: textarea
+    id: description
+    attributes:
+      label: 不具合の概要
+      description: 不具合の概要を記載してく##ださい。
+      placeholder: ここに具体的な不具合の内容を入力。
+      value: CSSを完全に理解している。
+    validations:
+      required: true
+  - type: checkboxes
+    id: browser
+    attributes:
+      label: 不具合が発生したブラウザ
+      description: 不具合が発生したブラウザを選択してください。
+      options:
+        - label: Google Chrome
+        - label: Firefox
+        - label: Safari
+        - label: Edge
+        - label: IE（Deprecated）
+  - type: dropdown
+    id: version
+    attributes:
+      label: 不具合が発生したバージョン
+      description: 不具合が発生したバージョンを選択してください。
+      options:
+        - 0.0.1
+        - 1.0.0
+        - 1.0.1
+        - 1.1.0
+        - 1.1.1
+        - 1.2.0
+        - 2.0.0

@@ -1,0 +1,44 @@
+name: フィードバック
+description: LTのフィードバックを受け付けるためのフォームです。
+title: '[Feedback] '
+labels: [feedback]
+assignees:
+  - YuheiFUJITA
+body:
+  - type: markdown
+    attributes:
+      value: |
+        LTを聞いていただきありがとうございます。
+        もしよければ、今日のLTの感想をIssueにコメントしていただけると嬉しいです。
+        Issue Formをより詳しく学びたい方は以下をドキュメントを参照してください。
+        - [Syntax for issue forms \- GitHub Docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms)
+        - [Syntax for GitHub's form schema \- GitHub Docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema)
+  - type: dropdown
+    id: score
+    attributes:
+      label: LTの内容はどうでしたか？
+      description: LTの内容を5段階で評価してください。
+      options:
+        - ☆☆☆☆★
+        - ☆☆☆★★
+        - ☆☆★★★
+        - ☆★★★★
+        - ★★★★★
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: LTの感想
+      description: LTの感想を自由に書いてください。
+      placeholder: ここに感想を書いてください。
+      value: めっちゃ良かったです！
+  - type: checkboxes
+    id: survey
+    attributes:
+      label: アンケート
+      description: Issueのテンプレートはどれを使ってますか？
+      options:
+        - label: Markdown方式
+        - label: YAML方式
+
