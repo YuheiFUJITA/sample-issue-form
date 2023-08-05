@@ -5,14 +5,13 @@ class: text-center
 highlighter: shiki
 lineNumbers: true
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## Issueテンプレートは古い、これからはIssue Formだ
 
-  Learn more at [Sli.dev](https://sli.dev)
+  これは[【現地/オンライン配信】GitHub dockyardコミュニティ 竣工イベント！](https://github-dockyard.connpass.com/event/289714/)でLT登壇したスライドです。
 drawings:
   persist: false
 transition: slide-left
-title: Welcome to Slidev
+title: Issueテンプレートは古い、これからはIssue Formだ
 ---
 
 # Issueテンプレートは古い<br>これからはIssue Formだ
