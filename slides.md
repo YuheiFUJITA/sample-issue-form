@@ -137,7 +137,7 @@ layout: statement
 layout: statement
 ---
 
-# 誰もテンプレートを<br>守らないのである
+# そう、誰もテンプレートを<br>守らないのである
 
 ---
 layout: statement
@@ -306,6 +306,9 @@ body:
 
 <v-clicks depth="1">
 
+- Issue FormがあるとMarkdownのテンプレートが出てこない？
+  - `New issue` のリストにIssue Formしか出ないから併用できない？
+  - queryで指定すればいける
 - まだBeta機能
   - 今後変更される可能性あり
 - `required: true` はPublic Repositoryのみ
