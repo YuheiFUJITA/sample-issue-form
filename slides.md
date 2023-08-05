@@ -262,12 +262,13 @@ body:
 <v-clicks depth="1">
 
 - markdown
+  - ユーザーに表示するためのテキスト（説明文など）
+  - Issueには送信されない
+- textarea
   - GitHubのMarkdown記法で記述できる
   - 画像も貼れる
-- textarea
-  - 複数行のプレーンなテキスト入力
 - input
-  - 単一行のプレーンなテキスト入力
+  - 単一行のテキスト入力
 - dropdown
   - ドロップダウンメニュー
 - checkboxes
