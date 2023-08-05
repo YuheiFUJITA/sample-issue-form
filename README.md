@@ -1,11 +1,4 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# sample issue form
 
-To start the slide show:
+[【現地/オンライン配信】GitHub dockyardコミュニティ 竣工イベント！ \- connpass](https://github-dockyard.connpass.com/event/289714/) で発表したスライドです。
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
